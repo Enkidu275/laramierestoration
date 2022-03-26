@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<header>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" >
+    <title>Laramie Restoration</title>
+</header>
+<body>
+    <div id="mainpage">
+        
+    </div>
+    <div id="animatedtitle"><div></div><h1>title</h1></div>
+    <div id="mainheader">
+        <a href="" onclick="pagebody.set('home')">
+            <span class="headerlogo1">
+                <svg width="10vw" viewBox="40 20 242 213">
+                    <path fill="#CCCCFF" d="M74 116L90 116L90 209L157 209L157 224L74 224L74 116ZM157 29L157 202L141 202L141 60L99 89L141 89L141 105L113 105L113 202L97 202L97 105L48 105L157 29ZM251 224L227 105L274 105L168 31L169 224L185 224L185 62L223 89L185 89L185 105L211 105L236 224L251 224Z"/>
+                </svg>
+            </span>
+            <span class="headerlogo2">
+                aramie<br/>Restoration
+            </span>
+        </a>
+    </div>
+    <div onclick="sidebar.close()" id="sidebargrey">
+
+    </div>
+    <div id="sidebarmenu" class="sidebarmenu">
+        <p onclick="sidebar.select('home')" class="sidebaroption">Contact Us</p>
+        <p onclick="sidebar.select('homelist')" class="sidebaroption">Public Listings</p>
+        <p class="sidebaroption">Sellers</p>
+        <p onclick="sidebar.select('login')" class="sidebaroption">Login</p>
+    </div>
+    <div onclick="sidebar.toggle()" id="sidebaropen">
+        <svg viewBox="0 0 20 20">
+            <path d="M4 4L16 4L16 8L4 8Z"/>
+            <path d="M4 12L16 12L16 16L4 16Z"/>
+        </svg>
+    </div>
+</body>
+<link rel="stylesheet" href="laramierestoration.css">
+<script src="laramierestoration.js"></script>
+</html>
